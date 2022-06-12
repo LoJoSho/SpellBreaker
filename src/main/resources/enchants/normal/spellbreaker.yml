@@ -1,0 +1,29 @@
+#
+# SpellBreaker Enchantment
+#
+
+name: "Spell Breaker"
+description: Deals more damage to witches
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: uncommon
+
+general-config:
+  flags: []
+  targets:
+    - sword
+    - axe
+  grindstoneable: true
+  disabled-in-worlds: [ ]
+  requirements:
+    list: []
+    not-met-lore: []
+  conflicts: []
+  maximum-level: 5
+
+config:
+  bonus-per-level: 2
